@@ -69,3 +69,10 @@ python fetch_wechat_articles.py URL -o ./out --content
 - `articles/`：约 52 篇正文 Markdown，不是全部 283 篇的全文
 
 该目录里的 README 说明了账号、专辑和这份数据的范围。
+
+`examples/哥飞/` 是用本脚本从公众号 哥飞 拉到的一份真实结果：
+
+- `article-list.md` 和 `articles.json`：去重后 313 篇公开文章的完整目录（标题、日期、链接），来自 11 个公开专辑，时间范围 2022-12-06 至 2026-11-22（Asia/Shanghai）
+- `articles/`：309 篇全文 Markdown，以及 4 篇付费墙试读
+
+该目录里的 README 说明了账号、专辑和这份数据的范围。
